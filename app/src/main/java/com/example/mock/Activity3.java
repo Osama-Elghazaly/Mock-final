@@ -30,19 +30,19 @@ public class Activity3 extends ListActivity {
 
         switch(position){
 
-            case 1:
+            case 0:
                 startActivity(new Intent(Activity3.this,showBig.class));
                 break;
-            case 2:
+            case 1:
                 startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://chocolatharlem.com/")));
                 break;
-            case 3:
+            case 2:
                 startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://google.com")));
                 break;
-            case 4:
+            case 3:
                 startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://facebook.com")));
                 break;
-            case 5:
+            case 4:
                 startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://youtube.com")));
                 break;
 
