@@ -13,7 +13,7 @@ import android.widget.ListView;
 public class Activity3 extends ListActivity {
 
     String[] items={"Option 1","Option 2","Option 3","Option 4","Option 5"};
-
+//jjj
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
