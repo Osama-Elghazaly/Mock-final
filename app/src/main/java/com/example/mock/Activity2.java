@@ -23,8 +23,8 @@ public class Activity2 extends AppCompatActivity {
         setContentView(R.layout.activity_2);
 
         Button bttnSubmit=(Button)findViewById(R.id.bttnSubmit);
-        Button bttn1=(Button)findViewById(R.id.bttn1);
-        Button bttn2=(Button)findViewById(R.id.bttn2);
+        Button bttn1=(Button)findViewById(R.id.goToOneFrom2);
+        Button bttn2=(Button)findViewById(R.id.goToThreeFrom2);
 
         EditText name=(EditText)findViewById(R.id.editTextTextPersonName);
         EditText birth=(EditText)findViewById(R.id.editTextNumber);

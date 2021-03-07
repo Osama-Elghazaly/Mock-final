@@ -107,7 +107,7 @@
         app:layout_constraintVertical_bias="0.79" />
 
     <Button
-        android:id="@+id/bttn1"
+        android:id="@+id/goToOneFrom2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Go to activity 1"
@@ -119,7 +119,7 @@
         app:layout_constraintVertical_bias="0.957" />
 
     <Button
-        android:id="@+id/bttn2"
+        android:id="@+id/goToThreeFrom2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Go to activity 3"

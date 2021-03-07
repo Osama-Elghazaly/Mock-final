@@ -19,10 +19,13 @@ public class Activity3 extends ListActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_3);
-        setListAdapter(new ArrayAdapter<String>(this,R.layout.activity_3,R.id.txtViewList,items) );
 
-        Button bttn1=(Button)findViewById(R.id.bttn1);
-        Button bttn2=(Button)findViewById(R.id.bttn2);
+        setListAdapter(new ArrayAdapter<String>(this,R.layout.activity_3,R.id.txtViewList,items));
+
+
+/*
+        Button bttn1=(Button)findViewById(R.id.goToOneFrom3);
+        Button bttn2=(Button)findViewById(R.id.goToTwoFrom3);
 
         bttn1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -37,6 +40,10 @@ public class Activity3 extends ListActivity {
                 startActivity(new Intent(Activity3.this,Activity2.class));
             }
         });
+
+ */
+
+
 
 
 
