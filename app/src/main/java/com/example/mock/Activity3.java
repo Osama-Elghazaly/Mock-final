@@ -8,17 +8,35 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 
 public class Activity3 extends ListActivity {
 
     String[] items={"Option 1","Option 2","Option 3","Option 4","Option 5"};
-//jjj
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_3);
         setListAdapter(new ArrayAdapter<String>(this,R.layout.activity_3,R.id.txtViewList,items) );
+
+        Button bttn1=(Button)findViewById(R.id.bttn1);
+        Button bttn2=(Button)findViewById(R.id.bttn2);
+
+        bttn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+           public void onClick(View v) {
+                startActivity(new Intent(Activity3.this,MainActivity.class));
+            }
+        });
+
+        bttn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Activity3.this,Activity2.class));
+            }
+        });
 
 
 
